@@ -7,23 +7,29 @@
     <title>test</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <style>
     #border {
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     #img {
         height: 300px;
         width: 210px;
     }
-    #text{
+
+    #text {
         color: white-;
     }
+
     #margin {
         margin-bottom: 20px;
     }
-    #margin2{
+
+    #margin2 {
         margin-top: 20px;
     }
 </style>
@@ -59,7 +65,7 @@
 
     <!-- img  -->
     <div>
-        <img src="https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg" class="img-fluid" alt="">
+        <img src="https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg" class="img-fluid" alt="" onclick="myFunction5()">
     </div>
 
     <br>
@@ -74,53 +80,53 @@
                 <img src="https://images.pexels.com/photos/2400594/pexels-photo-2400594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction1()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border" id="hW">
                 <img src="https://images.pexels.com/photos/3082313/pexels-photo-3082313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction2()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border">
                 <img src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction3()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border">
                 <img src="https://images.pexels.com/photos/85773/pexels-photo-85773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction4()">download</div>
             </div>
 
             <div class="col-sm-4 col-md-3" id="border" id="margin">
                 <img src="https://images.pexels.com/photos/2400594/pexels-photo-2400594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction1()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border" id="hW">
                 <img src="https://images.pexels.com/photos/3082313/pexels-photo-3082313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction2()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border">
                 <img src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction3()">download</div>
             </div>
             <div class="col-sm-4 col-md-3" id="border">
                 <img src="https://images.pexels.com/photos/85773/pexels-photo-85773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="" class="img-fluid" id="img">
                 <p>purv</p>
-                <div class="btn bg-info">download</div>
+                <div class="btn bg-info" onclick="myFunction4()">download</div>
             </div>
 
-            
+
         </div>
     </div>
 
@@ -128,20 +134,21 @@
     <!-- footer -->
     <div class="container-fluid bg-dark">
 
-        <div class="row justify-content-md-center modal-dialog modal-dialog-centered"  id="margin2">
+        <div class="row justify-content-md-center modal-dialog modal-dialog-centered" id="margin2">
 
             <div class="col-sm-12 col-lg-6 text-light">
                 <p id="text">
-                    <ul>
-                        <li>Home</li>
-                        <li>Contact</li>
-                        <li>About Us</li>
-                        <li>log In</li>
-                    </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About Us</li>
+                    <li>log In</li>
+                </ul>
                 </p>
             </div>
             <div class="col-sm-12 col-lg-6 text-light ">
-                <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, itaque qui in totam quas placeat
+                <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, itaque qui in totam quas
+                    placeat
                     mollitia voluptas nihil sint, laboriosam necessitatibus. Dolor nobis, consequuntur est blanditiis
                     dignissimos exercitationem molestiae sed!</p>
             </div>
@@ -149,5 +156,23 @@
 
     </div>
 </body>
+<script>
+    function myFunction1() {
+        window.open("https://images.pexels.com/photos/2400594/pexels-photo-2400594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    function myFunction2() {
+        window.open("https://images.pexels.com/photos/3082313/pexels-photo-3082313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    function myFunction3() {
+        window.open("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    function myFunction4() {
+        window.open("https://images.pexels.com/photos/85773/pexels-photo-85773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    function myFunction5() {
+        window.open("https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg");
+    }
+
+</script>
 
 </html>
