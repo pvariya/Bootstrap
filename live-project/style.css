@@ -1,0 +1,15 @@
+#nav{
+    height: 50px;
+    width: 100wh;
+}
+#logoH{
+    height: 28px;
+    cursor: pointer;
+}
+.inputTag{
+  width: 650px;
+}
+#icon{
+    margin-right: 7px;
+    cursor: pointer;
+}

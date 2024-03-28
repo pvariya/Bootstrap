@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.76/build/spline-viewer.js"></script>
+
+
+
+
+
+
+</head>
+<style>
+  #flex{
+    display: flex;
+    justify-content: center;
+  }
+  #bg {
+    height: 400px;
+    width: 400px;
+    /* background-color: wheat ; */
+  }
+</style>
+
+<body>
+  <main>
+   
+   
+    <div id="flex">
+      <div> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ipsum esse. Aliquam alias, voluptatum et
+        sint, autem, culpa commodi magnam aliquid quibusdam cumque iure? Ut, asperiores? Quisquam iure sapiente quasi.
+        </div>
+        <spline-viewer url="https://prod.spline.design/j1vm2zbUCuF5-KnG/scene.splinecode"></spline-viewer>
+
+    </div>
+  </main>
+</body>
+
+<script>
+ import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/j1vm2zbUCuF5-KnG/scene.splinecode');
+
+
+
+</script>
+
+</html>
