@@ -110,8 +110,8 @@ body {
 
 /* finish */
 #CLUB-VELLVETTE-main{
-  display: flex;
-  justify-content: center;
+   display: flex; 
+  justify-content: center; 
 }
 .logo{
   margin-left:3%;
@@ -120,6 +120,8 @@ body {
   margin-left:3%;
 }
 #CLUB-VELLVETTE {
+  /* display: flex;
+  justify-content: center; */
   padding-top: 20px;
   border-radius: 20px;
   width: 90%;
