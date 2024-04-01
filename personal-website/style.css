@@ -1,0 +1,58 @@
+
+body{
+  font-family: Poppins, sans-serif;
+}
+.dropdown-center:hover {
+    .dropdown-menu {
+      display: block;
+    }
+  }
+  .dropdown-center{
+    border: none;
+  }
+  #nav{
+    height: 90px;
+  }
+  #navBTN{
+    border: none;
+    background-color: transparent;
+  }
+  #icons i{
+    margin-left: 5px;
+  }
+  /* finish nav  */
+  #swImg1{
+    background-image: url("https://flone.jamstacktemplates.dev/assets/img/slider/slider-24.jpg");
+  }
+  #swImg2{
+    background-image: url("https://flone.jamstacktemplates.dev/assets/img/slider/slider-25.jpg");
+  }
+
+  .swiper {
+    width: 100%;
+    height: 570px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* finish */
+  #BigSaleImg img:hover{
+    /* transform: scalex(2); */
+    /* transform: translatey(-50px); */
+    transform: scale(1);
+    transition: all .5s ease 0s;
+    width: 100%;  
+  }

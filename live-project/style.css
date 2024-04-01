@@ -1,15 +1,152 @@
-#nav{
-    height: 50px;
-    width: 100wh;
+#navJOINT{
+
 }
-#logoH{
-    height: 28px;
-    cursor: pointer;
+#nav {
+  background-color: #141414;
+  height: 70px;
+  width: 100wh;
+  overflow-x: hidden;
+
 }
-.inputTag{
-  width: 650px;
+
+.mySwiper::-webkit-scrollbar {
+  display: none;
 }
-#icon{
-    margin-right: 7px;
-    cursor: pointer;
+
+#logoH {
+  height: 28px;
+  cursor: pointer;
+}
+
+.inputTag {
+  /* width: 650px; */
+}
+
+#icon {
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+#nav2 {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+ 
+}
+
+#dropdownMenu2 {
+  color: white;
+  border: none;
+  font-size: 14px;
+  margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.dropdown-center:hover {
+  .dropdown-menu {
+    display: block;
+  }
+
+}
+
+.dropdown:hover {
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+/*  swiper */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#swiper1 {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  /* width: 100%; */
+  height: auto;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* line */
+#line {
+  width: 50px;
+  height: 0px;
+  border: 1px solid red;
+
+}
+
+#lineFont {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+#lineMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* finish */
+#CLUB-VELLVETTE-main{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  margin-left:3%;
+}
+.text-light{
+  margin-left:3%;
+}
+#CLUB-VELLVETTE {
+  padding-top: 20px;
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  background-image: url("https://d32baadbbpueqt.cloudfront.net/Clubvellvette/backCv0010.png");
+  #text3{
+    color: #FC2779;
+    font-size: 28px;
+  }
+  #text2{
+    font-size: 33px;
+  }
+  #text1{
+    font-size: 40px;
+  }
+}
+/* finish */
+.lineFont2{
+  color: white;
+}
+.BESTSELLERS{
+  height: auto;
+  background-image: url("https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png");
+}
+#box{
+  height: 420px;
+  width: 370px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
 }
