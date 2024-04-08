@@ -1,0 +1,92 @@
+#logoImg{
+    width: 129px;
+    height:19px ;
+}
+#mainImg{
+    width: 840px;
+    height: 355px;
+}
+#img2{
+    width: 432px;
+    height: 310px;
+}
+#img4{
+     width: 600px; 
+     height: 590px; 
+}
+
+#Invest-in-everything{
+    font-size: 45px;
+}
+#Invest-in-everything2{
+    font-size:20px ;
+}
+#Invest-in-everything3{
+  margin-left: 10px;
+}
+
+#Icon{
+   font-size: 25px;
+}
+#Largest-stock-broker-in-India{
+    margin-top: 7%;
+}
+#img3{
+    cursor: pointer;
+    height: 30px;
+    width: 530px;
+}
+.text1{
+    font-size:20px;
+    color:#424242 ;
+    font-weight: 600;
+}
+#Trust-with-confidence{
+    margin-top: 10%;
+}
+#mainText1{
+    font-size:40px;
+    color:#424242 ;
+    font-weight: 600;
+}
+#textSec1{
+    margin-right: 10%;
+}
+#Ptext1{
+    margin-bottom: 5%;
+}
+
+
+#Unbeatable-pricing-p1{
+    color: #424242;
+    font-weight: 600;
+    font-size: 32px;
+}
+#Unbeatable-pricing-p2{
+    color: #424242;
+    font-size: 16px;
+}
+#Unbeatable-pricing-InerDiv1 a{
+    text-decoration: none;
+}
+.Unbeatable-pricing-box{
+    width: 253px;
+    height: 190px;
+}
+#Unbeatable-pricing{
+    margin-top: 7%;
+}
+#price{
+    font-size: 45px;
+}
+#Varsity{
+    margin-top: 7%;
+}
+#Varsity-div  a{
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+#MainSecondDiv{
+    width: auto;
+    /* height: auto; */
+}

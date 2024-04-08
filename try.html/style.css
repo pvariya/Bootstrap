@@ -1,0 +1,23 @@
+body{
+    font-family: "Inter", serif;
+}
+:root {
+    --dark: #424242;
+  }
+#mainImg{
+    width: 585px;
+    height: auto;
+}
+#Invest-in-everything-Text{
+    font-size: 44px;
+    color: var(--dark);
+    font-weight: 600;
+}
+#Invest-in-everything-text2{
+    font-size: 20px;
+    color: var(--dark);
+}
+#Img2{
+    width: 432px;
+    height: auto;
+}

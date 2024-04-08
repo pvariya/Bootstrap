@@ -1,6 +1,4 @@
-#navJOINT{
 
-}
 #nav {
   background-color: #141414;
   height: 70px;
@@ -18,9 +16,7 @@
   cursor: pointer;
 }
 
-.inputTag {
-  /* width: 650px; */
-}
+
 
 #icon {
   margin-right: 7px;
@@ -151,4 +147,129 @@ body {
   width: 370px;
   background-color: #FFFFFF;
   border-radius: 10px;
+}
+
+/* new */
+#CURATED-KITS-FOR-YOU{
+  margin-top: 3%;
+  width: auto;
+  height: 500px;
+  background-image:url("https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png");
+}
+#line {
+  width: 50px;
+  height: 0px;
+  border: 1px solid red;
+
+}
+
+#lineFont2{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#lineMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.boxModels{ 
+  width: 370px;
+  height: 420px;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 20px;
+}
+.boxImg{
+  margin-top: 3px;
+  width: 160px;
+height: 222px;
+}
+.BOxModelText{
+  font-size: 12px;
+  margin-top: 3px;
+}
+.BoxModel-Iner-text{
+  font-size: 18px;
+  font-weight: 700;
+}
+#BoxBtn{
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  padding-left: 10px;
+}
+#likeBtn{
+  cursor: pointer;
+}
+
+/* finish */
+#line {
+  width: 50px;
+  height: 0px;
+  border: 1px solid red;
+
+}
+
+#lineFont3{
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+#lineMainDiv3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+#BannerImg{
+  border-radius: 20px;
+  width:90% ;
+  height: 430px;
+  cursor: pointer;
+}
+
+/* finish */
+/* new  */
+#line {
+  width: 50px;
+  height: 0px;
+  border: 1px solid red;
+
+}
+
+#lineFont4{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+#lineMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+
+/* finish */
+.form-control{
+  padding-left: 40px;
 }
