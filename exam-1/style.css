@@ -78,12 +78,36 @@
         }
     
     }
-
-
-
-
-
-
+    .footer-parent
+    {
+        height: 600px;
+        background-color: rgb(8, 8, 53);
+    }
+    .child
+    {
+        height: 450px;
+    }
+    .footer-boxes
+    {
+        height: 400px;
+        width: 300px;
+        row-gap: 15%;
+    }
+    .company
+    {
+        font-weight: 700;
+       
+    }
+    .footer-boxes1
+    {
+        height: 400px;
+        row-gap: 5%;
+        width: 300px;
+        /* row-gap: 15%; */
+    }
+    .footer-boxes1>a{
+        font-size: 20px;
+    }
 
 
 
