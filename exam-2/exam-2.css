@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box ;
+}
+:root{
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+#logoNmae{
+    font-family: var(font-family);
+}
+#sections > a{
+   text-decoration: none;
+}
+#titleMulti{
+    margin-left: 5%;   
+    margin-top: 1%; 
+    margin-right:15% ;
+    font-size: 27px;
+    font-weight: 600;
+}

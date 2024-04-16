@@ -1,0 +1,33 @@
+
+ /* #one
+{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+  
+}
+#two
+{
+    
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+#three
+{
+    height: 300px;
+    width: 300px;
+   margin: 10px;
+}
+#four
+{
+    height: 300px;
+    width: 300px;
+   margin: 10px;
+}  */
+
+ .box{ 
+    height: 300px;
+    width: 300px; 
+    margin: 10px;
+}
